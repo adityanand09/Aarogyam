@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+            <EditText
+                android:id="@+id/prof_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:hint="(empty)"
+                android:maxLines="1"
+                android:maxLength="15"
+                android:inputType="text"
+                android:background="@color/white_gray"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/black_white"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date of birth"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+            <TextView
+                android:id="@+id/prof_dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_gray"
+                android:textStyle="bold"
+                android:hint="(empty)"
+                android:inputType="text"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/black_white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+            <EditText
+                android:id="@+id/prof_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_gray"
+                android:textStyle="bold"
+                android:hint="(empty)"
+                android:inputType="text"
+                android:maxLength="12"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/black_white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blood group"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+            <EditText
+                android:id="@+id/prof_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_gray"
+                android:textStyle="bold"
+                android:hint="(empty)"
+                android:inputType="text"
+                android:maxLength="3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/black_white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ic_phone"/>
+            <EditText
+                android:id="@+id/prof_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:hint="(empty)"
+                android:background="@color/white_gray"
+                android:paddingLeft="10dp"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/black_white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_email"
+                android:layout_gravity="center_vertical"/>
+            <TextView
+                android:id="@+id/prof_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:hint="(empty)"
+                android:background="@color/white_gray"
+                android:paddingLeft="10dp"
+                android:inputType="text"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/black_white"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/prof_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/blue_red"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="Update" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
