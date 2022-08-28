@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/pf"
+        android:layout_width="match_parent"
+        android:layout_height="2.5dp">
+
+        <ProgressBar
+            android:id="@+id/progress_history"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:indeterminateTint="#FF0000"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/pf"
+        android:id="@+id/history_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/hs_btn_l"
+        android:layout_below="@+id/pf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/l_a_h_btn"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="Locally Added"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_margin="100dp"
+                android:elevation="20dp"
+                android:textColor="@color/white"
+                android:backgroundTint="#FCAE1E"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/s_h_btn"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="Searched"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:elevation="20dp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/green"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

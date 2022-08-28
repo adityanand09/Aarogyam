@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:orientation="vertical">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/subLocationsSymptomsList"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:scrollbars="none"/>
+
+    <Button
+        android:id="@+id/subLocationsSymptoms_submit"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:maxWidth="300dp"
+        android:text="Go" />
+
+</LinearLayout>

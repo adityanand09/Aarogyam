@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1040035859995",
+    "project_id": "aarogyam-bc9f4",
+    "storage_bucket": "aarogyam-bc9f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040035859995:android:92e700d85f06b8d06db2be",
+        "android_client_info": {
+          "package_name": "com.busi.adi.aarogyam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040035859995-4pbjhl64us4gd8c51fgpope23lho15a5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYpu8HrNVntWSNNScNkq8X3MBawehIa7E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040035859995-4pbjhl64us4gd8c51fgpope23lho15a5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

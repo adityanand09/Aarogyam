@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Aarogyam" parent="Theme.MaterialComponents.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorSecondaryVariant">@color/color_secondary_variant</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/white</item>
+        <!-- Customize your theme here. -->
+        <item name="android:background">@color/background_color</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:autofilledHighlight" tools:targetApi="o">@android:color/transparent</item>
+        <item name="actionBarTheme">@style/Account</item>
+
+    </style>
+
+    <style name="Theme.Aarogyam.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="Theme.Aarogyam.toolbar">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/black</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="Account" parent="">
+        <item name="colorPrimary">@color/color_primary</item>
+    </style>
+
+    <style name="Theme.Aarogyam.Fullscreen" parent="Theme.Aarogyam.NoActionBar">
+        <item name="android:statusBarColor">@color/green</item>
+    </style>
+
+    <style name="dateDialogTheme" parent="Theme.MaterialComponents.DayNight.Dialog">
+        <item name="colorAccent">@color/color_secondary_variant</item> <!--header background-->
+        <item name="android:colorAccent">@color/color_secondary_variant</item>
+        <item name="android:windowBackground">@color/white</item>     <!--calendar background-->
+        <item name="android:colorControlActivated">@color/green</item> <!--selected day-->
+        <item name="android:textColorPrimary">@color/black</item> <!--days of the month-->
+        <item name="android:textColorSecondary">@color/color_primary_variant</item>    <!--days of the week-->
+    </style>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/hi_back.xml" value="0.196" />
+        <entry key="app/src/main/res/drawable/ic_delete.xml" value="0.18" />
+        <entry key="app/src/main/res/drawable/ic_history.xml" value="0.18" />
+        <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.18" />
+        <entry key="app/src/main/res/drawable/ic_login.xml" value="0.196" />
+        <entry key="app/src/main/res/drawable/ic_logout.xml" value="0.18" />
+        <entry key="app/src/main/res/drawable/ic_profile.xml" value="0.18" />
+        <entry key="app/src/main/res/drawable/input_back.xml" value="0.196" />
+        <entry key="app/src/main/res/layout-land/diagnosis_fragment.xml" value="0.43333333333333335" />
+        <entry key="app/src/main/res/layout-land/user_info_frag.xml" value="0.43333333333333335" />
+        <entry key="app/src/main/res/layout/aarogyam_splash.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/account.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1925925925925926" />
+        <entry key="app/src/main/res/layout/diagnosis_fragment.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/health_item.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/history.xml" value="0.3703125" />
+        <entry key="app/src/main/res/layout/history_item.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/issue_details_item.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/profile.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/profile_details.xml" value="0.31851851851851853" />
+        <entry key="app/src/main/res/layout/user_info_frag.xml" value="0.35625" />
+        <entry key="app/src/main/res/menu/drawer_menu.xml" value="0.35625" />
+        <entry key="app/src/main/res/menu/main_menu.xml" value="0.35625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

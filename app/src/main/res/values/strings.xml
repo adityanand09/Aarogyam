@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Aarogyam</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    
+    <string name="usrname">z7FZm_GMAIL_COM_AUT</string>
+    <string name="password">Ea86HeYk74Gsr2XZz</string>
+    <string name="priaid_authservice_url">https\://authservice.priaid.ch/login</string>
+    <string name="priaid_healthservice_url">https\://healthservice.priaid.ch</string>
+    <string name="priaid_language">en-gb</string>
+
+    <string name="save_exit">Save</string>
+    <string name="cancel">Cancel</string>
+</resources>
